@@ -1,5 +1,5 @@
 <p align="centre">
-<img src="images/readme_page.jpg" width="80% style="max-width:100%;">
+<img src="images/readme_page.jpg" width="100% style="max-width:100%;">
 </p>
 <h1>Team Bio Page</h1>
 Meet students of the Interactive Media Program from Fanshawe College, Evica Mai and!
