@@ -2,12 +2,13 @@
 <img src="images/readme_page.jpg" width="100% style="max-width:100%;">
 </p>
 <h1>Team Bio Page</h1>
-Meet students of the Interactive Media Program from Fanshawe College, Evica Mai and!
+Meet students of the Interactive Media Program from Fanshawe College, Evica Mai and John Doe! This is an interatcive team profile card website, where the introductions of each member of the duo group is presented along with a picture. 
+There are simple transitions incoporated and a button link to switch between the two profiles.
 
 <h2>Collaborators:</h2>
 <ul>
 <li>Evica Mai @evica-ai</li>
-<li>John Na @Gene3829</li>
+<li>John Doe @doe3829</li>
 </ul>
 
 -----------------------------------------------------------
