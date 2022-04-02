@@ -7,7 +7,7 @@ Meet students of the Interactive Media Program from Fanshawe College, Evica Mai 
 <h2>Collaborators:</h2>
 <ul>
 <li>Evica Mai @evica-ai</li>
-<li>Eugene Na @Gene3829</li>
+<li>John Na @Gene3829</li>
 </ul>
 
 -----------------------------------------------------------
