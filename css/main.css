@@ -1,4 +1,291 @@
-.hidden
-{
+.hidden{
 	display: none;
+}
+
+body{
+	background-image: url(../images/bg_scene.jpg);
+	background-size: cover;
+	background-position: center;
+	background-color: #21084D;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Playfair Display", serif;
+}
+
+.card__container{
+	border-radius: 30px;
+	margin-top: 15px;
+	width: 500px;
+	height: 880px;
+	background-color: #fda769;
+	box-shadow: 5px 5px 50px 5px #333533;
+
+}
+
+/* hero image */
+.profile__img{
+	border-radius: 30px;
+	position: relative;
+	width: 100%;
+	height: 450px;
+	background-image: url('../images/john.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+	-webkit-mask-image: linear-gradient(to top, transparent 1%, #14213d 50%);
+}
+
+.profile__img::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.248);
+	transform: skew(45deg);
+	transition: 0.5s;
+}
+
+.profile__img:hover::before{
+	left: -180%;
+}
+
+.profile__sm{
+	position: center;
+	width: 150px;
+	align-items: center;
+	margin-left: 1px;
+	margin-bottom: 20px;
+}
+
+.profile__sm ul{
+	margin: 0;
+	padding: 0;
+	color:#21084D;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+
+
+/* social media */
+.profile__img ul li{
+	width: 60px;
+	height: 60px;
+	line-height: 40px;
+	text-align: center;
+	color: #fda769;
+}
+
+.profile__img ul li a{
+	color: #fff;
+}
+
+.profile__img ul li a:hover{
+	color: #F6D3DA;
+}
+
+
+
+/* profile card content */
+.text__content{
+	margin: 0 20px;
+	color: #E8EDDF;
+}
+
+.text__content h1{
+	font-size: 30px;
+	font-weight: 400;
+	color: #fff;
+}
+
+
+.text__content h2{
+	margin-top: 5px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #21084D;
+}
+
+
+.text__content p{
+	font-size: 15px;
+	color: #21084D;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	line-height: 1.5;
+	text-align: left;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 400;
+}
+
+
+/* button */
+.switch__btn{
+	width: 170px;
+	height: 35px;
+	border: 3px solid #fff;
+	background-color: #21084D;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.switch__btn h3{
+	margin-top: 8px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+.switch__btn:hover{
+	color: #fda769;
+	background-color: #fda769;
+}
+
+
+
+
+
+
+/* ems */
+.evica{
+	border-radius: 30px;
+	margin-top: 15px;
+	width: 500px;
+	height: 880px;
+	background-color: #FEC5BB;
+	box-shadow: 5px 5px 50px 5px #333533;
+
+}
+
+/* hero image */
+.emprofile__img{
+	border-radius: 30px;
+	position: relative;
+	width: 100%;
+	height: 450px;
+	background-image: url('../images/evica.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+	-webkit-mask-image: linear-gradient(to top, transparent 1%, #14213d 50%);
+}
+
+.emprofile__img::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.248);
+	transform: skew(45deg);
+	transition: 0.5s;
+}
+
+.emprofile__img:hover::before{
+	left: -180%;
+}
+
+.emprofile__sm{
+	position: center;
+	width: 150px;
+	align-items: center;
+	margin-left: 1px;
+	margin-bottom: 20px;
+}
+
+.emprofile__sm ul{
+	margin: 0;
+	padding: 0;
+	color:#21084D;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+
+
+/* social media */
+.emprofile__img ul li{
+	width: 40px;
+	height: 40px;
+	background-color: #F08080;
+	line-height: 40px;
+	text-align: center;
+}
+
+.emprofile__img ul li a{
+	color: #FEC5BB;
+}
+
+.emprofile__img ul li a:hover{
+	color: #E8EDDF;
+}
+
+
+
+/* profile card content */
+.emtext__content{
+	margin: 0 20px;
+	color: #E8EDDF;
+}
+
+.emtext__content h1{
+	font-size: 30px;
+	font-weight: 400;
+	color: #F08080;
+}
+
+
+.emtext__content h2{
+	margin-top: 5px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #F4978E;
+}
+
+
+.emtext__content p{
+	font-size: 15px;
+	color: #000000;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	line-height: 1.5;
+	text-align: left;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 400;
+}
+
+
+/* button */
+.emswitch__btn{
+	margin-top: 10px;
+	width: 170px;
+	height: 35px;
+	border: 3px solid #f8aaaa;
+	background-color: #F08080;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.emswitch__btn h3{
+	margin-top: 8px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #E8EDDF;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+.emswitch__btn:hover{
+	color: #F08080;
+	background-color: #F4978E;
 }
